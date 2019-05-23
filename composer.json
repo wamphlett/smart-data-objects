@@ -1,0 +1,11 @@
+{
+    "name": "wamphlett/smart-data-objects",
+    "description": "An easy solution to capturing and validating data into usable DTO's",
+    "authors": [
+        {
+            "name": "Warren Amphlett",
+            "email": "warrenamphlett@gmail.com"
+        }
+    ],
+    "require": {}
+}
