@@ -71,11 +71,9 @@ class Collection implements iCollection
 	{
 		$definition = $this->getPropertyDefinition($propertyName);
 
-		$validator = is_array($definition[$propertyName])
+		return is_array($definition[$propertyName])
 			? $definition[$propertyName][0]
 			: $definition[$propertyName];
-
-		return $validator;
 	}
 
 	/**
